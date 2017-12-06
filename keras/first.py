@@ -84,3 +84,5 @@ model.fit(X_train, y_train,
 
 score = model.evaluate(X_test, y_test, verbose=0)
 
+##### save model #####
+model.save("convolutional_model.h5")
